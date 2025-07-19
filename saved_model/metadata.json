@@ -1,0 +1,1 @@
+{"numerical_cols": ["active_energy", "active_power", "co2_1", "ambient_humidity", "high_pressure_1", "high_pressure_2", "low_pressure_1", "low_pressure_2", "high_pressure_3", "low_pressure_3", "outside_temp", "outlet_temp", "inlet_temp"], "seq_length": 12, "input_shape": [12, 13]}
