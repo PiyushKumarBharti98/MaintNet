@@ -1,4 +1,4 @@
-# 🔧 **Advanced Predictive Maintenance with Deep Learning and NLP**
+# 🔧 **Advanced Predictive Maintenance with Deep Learning**
 
 This project implements an **advanced predictive maintenance system** for **HVAC assets**, combining **LSTM Autoencoders** for anomaly detection in **time-series sensor data** with a **Natural Language Query Interface** for seamless interaction. The system supports **real-world applications** like fault detection, **prioritized alerts**, and **human-AI collaboration**.
 
@@ -21,12 +21,6 @@ The system analyzes **Building Management System (BMS)** data — such as **temp
 
 - **FDD Integration**  
   Formats output to integrate smoothly with existing **Fault Detection and Diagnostics (FDD)** systems.
-
-- **Natural Language Queries**  
-  Engineers can interact with the system using natural language like:  
-  ➤ *“How many anomalies were detected yesterday?”*  
-  ➤ *“What are the high-severity faults this week?”*  
-  Implemented using **DistilBERT** and **fuzzy string matching**.
 
 ---
 
