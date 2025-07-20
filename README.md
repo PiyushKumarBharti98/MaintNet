@@ -1,55 +1,45 @@
-Advanced Predictive Maintenance with Deep Learning and NLP
+# 🔧 **Advanced Predictive Maintenance with Deep Learning and NLP**
 
-This project implements an advanced predictive maintenance system for HVAC assets, using an LSTM autoencoder to detect anomalies in time-series sensor data and a natural language query interface to enhance usability. It is designed to align with Xempla’s mission of deploying autonomous decision systems for asset management, supporting real-world applications like fault detection, prioritized alerts, and human-AI collaboration.
+This project implements an **advanced predictive maintenance system** for **HVAC assets**, combining **LSTM Autoencoders** for anomaly detection in **time-series sensor data** with a **Natural Language Query Interface** for seamless interaction. The system supports **real-world applications** like fault detection, **prioritized alerts**, and **human-AI collaboration**.
 
-Project Overview
+---
 
-The system analyzes building management system (BMS) data (e.g., temperature, pressure, energy consumption) to predict equipment failures early, reducing downtime and improving asset lifespan. Key components include:
+## 📌 **Project Overview**
 
+The system analyzes **Building Management System (BMS)** data — such as **temperature**, **pressure**, and **energy consumption** — to **predict equipment failures** before they occur. This reduces downtime and extends asset lifespan.
 
+### 🔑 **Key Components**
 
+- **LSTM Autoencoder**  
+  Learns temporal dependencies in sensor data to detect **subtle anomalies**.
 
+- **Prioritized Alerts**  
+  Flags anomalies based on **severity levels**: **Low**, **Medium**, and **High**, ensuring actionable insights for operators.
 
-LSTM Autoencoder: Detects anomalies by learning temporal patterns in sensor data.
+- **Maintenance Schedules**  
+  Produces **daily maintenance recommendations** based on anomaly history.
 
+- **FDD Integration**  
+  Formats output to integrate smoothly with existing **Fault Detection and Diagnostics (FDD)** systems.
 
+- **Natural Language Queries**  
+  Engineers can interact with the system using natural language like:  
+  ➤ *“How many anomalies were detected yesterday?”*  
+  ➤ *“What are the high-severity faults this week?”*  
+  Implemented using **DistilBERT** and **fuzzy string matching**.
 
-Prioritized Alerts: Categorizes anomalies by severity (Low, Medium, High) for actionable insights.
+---
 
+## 🚀 **Features**
 
+### ✅ **Anomaly Detection**
+Detects hidden faults by capturing **temporal patterns** using **LSTM Autoencoders** and applies **dynamic thresholding** for accurate identification.
 
-Maintenance Schedules: Generates daily recommendations for maintenance actions.
+### ✅ **Explainability**
+Provides **visual explanations** of anomaly causes — such as **temperature spikes** or **pressure drops** — to aid in **human-in-the-loop decisions**.
 
-
-
-FDD Integration: Formats outputs for compatibility with fault detection and diagnostics (FDD) systems.
-
-
-
-Natural Language Queries: Allows engineers to ask questions like “How many anomalies were detected yesterday?” using a DistilBERT-based interface.
-
-This project demonstrates proficiency in Python, PyTorch, Hugging Face, and time-series modeling, tailored to Xempla’s focus on applied ML and explainable AI.
-
-Features
-
-
-
-
-
-Anomaly Detection: Identifies subtle patterns in sensor data using dynamic thresholding.
-
-
-
-Explainability: Visualizes anomalies and contributing features (e.g., pressure, temperature) to support human-in-the-loop decision-making.
-
-
-
-Actionable Outputs: Generates CSV files for alerts, maintenance schedules, and FDD integration.
-
-
-
-Natural Language Interface: Processes queries like “What’s the system status?” or “What are the high-severity anomalies?” using DistilBERT and fuzzy matching.
-
-
-
-Edge Compatibility: Lightweight model design suitable for real-world deployment
+### ✅ **Actionable Outputs**
+Automatically generates structured reports:
+- **CSV files** for anomaly alerts
+- **Maintenance schedules**
+- **FDD-compatible logs**
