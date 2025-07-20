@@ -1,0 +1,19 @@
+date,severity,contributing_feature,reconstruction_error,recommended_action
+2022-06-01,"{'Medium': 5, 'High': 5, 'Low': 2}",active_energy,0.14898394,Immediate Inspection
+2022-06-02,"{'Low': 6, 'High': 4, 'Medium': 2}","active_energy, co2_1",0.13722892,Immediate Inspection
+2022-06-03,"{'Low': 7, 'Medium': 3, 'High': 3}",active_energy,0.13070242,Immediate Inspection
+2022-06-04,"{'Medium': 5, 'High': 4, 'Low': 3}",active_energy,0.14631192,Immediate Inspection
+2022-06-05,"{'Medium': 10, 'High': 6, 'Low': 3}",active_energy,0.13670115,Immediate Inspection
+2022-06-06,"{'Low': 5, 'Medium': 3, 'High': 2}",active_energy,0.12562083,Immediate Inspection
+2022-06-07,"{'Medium': 8, 'High': 7, 'Low': 4}","active_energy, active_power",0.14488478,Immediate Inspection
+2022-06-08,"{'High': 6, 'Low': 5, 'Medium': 5}",active_energy,0.14665794,Immediate Inspection
+2022-06-09,"{'High': 8, 'Medium': 3, 'Low': 2}","active_energy, co2_1",0.1537252,Immediate Inspection
+2022-06-10,"{'High': 4, 'Medium': 3, 'Low': 2}","active_energy, active_power, co2_1",0.14706342,Immediate Inspection
+2022-06-11,"{'Low': 8, 'Medium': 7, 'High': 5}","active_energy, co2_1, high_pressure_1",0.13328603,Immediate Inspection
+2022-06-12,"{'Low': 4, 'High': 3, 'Medium': 1}","active_energy, inlet_temp",0.13295566,Immediate Inspection
+2022-06-13,"{'Low': 5, 'Medium': 3, 'High': 3}","active_energy, active_power",0.1340825,Immediate Inspection
+2022-06-14,"{'High': 7, 'Low': 4, 'Medium': 4}","active_energy, active_power, high_pressure_2",0.14189129,Immediate Inspection
+2022-06-15,"{'Low': 8, 'High': 8, 'Medium': 5}","active_energy, active_power, high_pressure_2",0.13432959,Immediate Inspection
+2022-06-16,"{'Low': 10, 'Medium': 10, 'High': 1}","active_energy, inlet_temp",0.12022897,Immediate Inspection
+2022-06-17,"{'Medium': 7, 'Low': 5, 'High': 5}","active_energy, active_power",0.13733876,Immediate Inspection
+2022-06-18,"{'High': 5, 'Low': 3, 'Medium': 1}","active_energy, co2_1, active_power",0.15059356,Immediate Inspection
